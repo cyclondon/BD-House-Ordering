@@ -6,7 +6,8 @@ Quote and order tool for the BD House UK team (Unit 6 Watford), for products mad
 | File | What it is |
 |---|---|
 | `index.html` | The whole configurator: product picker, sizes, drawings, UK prices, customer quote, factory order sheet (bilingual, no prices), Excel export. One self-contained file. |
-| `downloads/BD_House_Quote_Order_Tracker.xlsx` | The back-office tracker: Settings, Price_Book, Price_List, Customers, Quote_Lines, Quotes, Orders, Dashboard. |
+| `downloads/BD_House_Sales_and_Orders.xlsx` | The working tracker: Sales analytics, Customers, Quotes, Quote lines, Orders, Payments, HK purchase orders, Shipments, Claims. Keep it offline; paste quote exports into it. |
+| `downloads/BD_House_Quote_Order_Tracker.xlsx` | Pricing reference: Price_Book, Price_List, Glass_Fit and pricing settings. |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are. |
 
 ## Put it online (GitHub Pages)
@@ -21,3 +22,5 @@ Quote and order tool for the BD House UK team (Unit 6 Watford), for products mad
 - Prices and pricing settings are built into `index.html`. To update them, replace `index.html` with a new version.
 - Needs an internet connection the first time for fonts and the Excel export library (cdnjs).
 - Anyone with the link can open the page. The manager-only "Factory cost & margin" panel is visible in the page, so share the link with staff only.
+
+`downloads/BD_House_Leaflet.pdf`: the one-page leaflet (print or email).
